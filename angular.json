@@ -55,7 +55,8 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "ssr":false
             }
           },
           "defaultConfiguration": "production"
@@ -97,5 +98,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ea5cf447-472a-4ec8-b53d-e623f1af18a0"
   }
 }
